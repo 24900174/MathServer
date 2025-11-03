@@ -101,7 +101,8 @@ Publish the website in the given URL.
 ```
 
 ## SERVER SIDE PROCESSING:
-![alt text](<WhatsApp Image 2025-11-03 at 14.20.37_4d24a077.jpg>)
+![WhatsApp Image 2025-11-03 at 14 20 37_4d24a077](https://github.com/user-attachments/assets/6ed17470-9e43-470d-9209-1bb523f54bfa)
+
 
 ## HOMEPAGE:
 ![alt text](<Screenshot 2025-11-03 141828.png>)
