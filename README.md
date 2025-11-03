@@ -1,5 +1,5 @@
 # Ex.05 Design a Website for Server Side Processing
-## Date:
+## Date:03-11-2025
 
 ## AIM:
  To design a website to calculate the power of a lamp filament in an incandescent bulb in the server side. 
@@ -32,13 +32,79 @@ Create a HTML file to implement form based input and output.
 Publish the website in the given URL.
 
 ## PROGRAM :
+```
+<html>
 
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>POWER OF LAMP IN INCANDESCENT BULD</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <style type="text/css">
+        .box {
+            display: block;
+            width: 500px;
+            min-height: 300px;
+            font-size: 20px;
+            background: rgb(21, 208, 215);
+            background: linear-gradient(90deg, rgb(99, 237, 118) 9%, rgb(193, 166, 202) 56%);
+            border-radius: 10px;
+            box-shadow: rgba(239, 5, 24, 0.35) 0px 5px 15px;
+        }
+
+        .formelt {
+            color: whitesmoke;
+            text-align: center;
+            margin-top: 7px;
+            margin-bottom: 6px;
+        }
+
+        h1 {
+            color: white;
+            text-align: center;
+            padding-top: 20px;
+        }
+        input{
+            margin: 5px;
+            padding: 5px;
+            border-radius: 5px;
+            border: none;
+
+        }
+    </style>
+</head>
+
+<body>
+    <div class="edge">
+        <div class="box">
+            <h1>POWER OF LAMP IN INCANDESCENT BULB</h1>
+            <form method="POST">
+                {% csrf_token %}
+                <div class="formelt">
+                    INTENSITY : <input type="text" name="Intensity" value="{{I}}"></input>(in A)<br />
+                </div>
+                <div class="formelt">
+                    RESISITANCE : <input type="text" name="Resistence" value="{{R}}"></input>(in Ω)<br />
+                </div>
+                <div class="formelt">
+                    <input type="submit" value="Calculate"></input><br />
+                </div>
+                <div class="formelt">
+                    POWER : <input type="text" name="mathapp" value="{{mathapp}}"></input>W<br />
+                </div>
+            </form>
+        </div>
+    </div>
+</body>
+
+</html>
+```
 
 ## SERVER SIDE PROCESSING:
-
+![alt text](<WhatsApp Image 2025-11-03 at 14.20.37_4d24a077.jpg>)
 
 ## HOMEPAGE:
-
+![alt text](<Screenshot 2025-11-03 141828.png>)
 
 ## RESULT:
 The program for performing server side processing is completed successfully.
